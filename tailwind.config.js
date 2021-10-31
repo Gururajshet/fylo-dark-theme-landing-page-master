@@ -25,7 +25,11 @@ module.exports = {
         mobile: 'url("../images/bg-curvy-mobile.svg")',
       },
       spacing: {
-        '18': '74px'
+        '18': '74px',
+        '100': '400px',
+        '102': '440px',
+        '103': '460px',
+        '104': '470px'
       }
     },
   },
