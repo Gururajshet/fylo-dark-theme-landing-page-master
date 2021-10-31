@@ -8,8 +8,8 @@ module.exports = {
         darkBlueBack: "hsl(218, 28%, 13%)",
         darkBlueFooter: "hsl(216, 53%, 9%)",
         darkBluetestimonial: "hsl(219, 30%, 18%)",
-        CYan: "hsl(176, 68%, 64%)",
-        Bluee: "hsl(198, 60%, 50%)",
+        cyan: "hsl(176, 68%, 64%)",
+        blue: "hsl(198, 60%, 50%)",
         lightred: "hsl(0, 100%, 63%)",
       },
       fontFamily: {
