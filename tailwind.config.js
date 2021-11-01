@@ -1,5 +1,7 @@
 module.exports = {
-  purge: [],
+  purge: [
+    './public/*.html'
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -30,6 +32,9 @@ module.exports = {
         '102': '440px',
         '103': '460px',
         '104': '470px'
+      },
+      boxShadow: {
+        customShadow: '2px 0px 40px -2px rgba(0,0,0,0.73)'
       }
     },
   },

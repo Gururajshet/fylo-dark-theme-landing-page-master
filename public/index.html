@@ -19,20 +19,21 @@
     <nav class=" text-white flex justify-between">
       <img src="../images/logo.svg" alt="logo" class="w-18">
       <div class=" flex items-center justify-between">
-        <a href="#" class=" mr-5 cursor-pointer rounded-sm focus:font-extrabold">Features </a>
-        <a href="#" class=" mr-5 cursor-pointer rounded-sm focus:font-extrabold">Teams </a>
+        <a href="#features" class=" mr-5 cursor-pointer rounded-sm focus:font-extrabold">Features </a>
+        <a href="#teams" class=" mr-5 cursor-pointer rounded-sm focus:font-extrabold">Teams </a>
         <a href="#" class=" cursor-pointer rounded-sm focus:font-extrabold">Sign In </a>
       </div>
     </nav>
   </header>
 
 
-  <main class=" bg-darkBlueBack">
-    <figure class="block mx-auto my-5 p-8  ">
-      <img src="../images/illustration-intro.png" alt="intro">
+  <main class="z-0 bg-darkBlueBack">
+    <figure class="block mx-auto mt-5 p-8 z-30 relative">
+      <img src="../images/illustration-intro.png" alt="intro" class=" z-20 relative">
+      <!-- <img src="../images/bg-curvy-mobile.svg" alt="" class=" absolute  top-56 left-0 z-10"> -->
     </figure>
 
-    <div class=" font-Raleway ">
+    <div class=" font-Raleway mt-9 z-30 relative bg-darkBlueBack  ">
       <h2 class=" text-center text-2xl font-bold  text-white m-auto w-10/12">
         All your files in one secure location, accessible anywhere.
       </h2>
@@ -43,9 +44,9 @@
       <button class=" px-18 py-3 my-5 bg-cyan block mx-auto text-white rounded-3xl font-semibold">Get started</button>
     </div>
 
-    <section class="w-10/12 mx-auto">
+    <section class="w-10/12 mx-auto mt-28 " id="features">
       <div>
-        <div class=" text-center text-white mt-28">
+        <div class=" text-center text-white ">
           <img src="../images/icon-access-anywhere.svg" alt="" class="mx-auto">
           <h3 class=" font-semibold text-lg mb-3">Access your files, anywhere</h3>
           <p class=" text-sm"> Fylo stores all your most important files in one secure location. Access them wherever
@@ -99,9 +100,8 @@
       </div>
     </section>
 
-    <section class=" w-10/12 mx-auto mt-28">
+    <section class=" w-10/12 mx-auto mt-28 my-56 relative" id="teams">
       <div>
-
         <div class=" text-white bg-darkBluetestimonial p-7">
           <p class=" mb-5 text-left text-sm leading-6">Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled collaboration machine.</p>
@@ -147,16 +147,71 @@
 
     </section>
 
+    <footer class=" bg-darkBlueFooter  relative  ">
+      <div class=" w-10/12 mx-auto p-5  bg-darkBlueBack text-white shadow-customShadow  relative bottom-32">
+        <h3 class=" font-bold text-center mb-5 tracking-widest">Get early access today</h3>
+        <p class=" font-light text-sm leading-6">It only takes a minute to sign up and our free starter tier is
+          extremely
+          generous. If
+          you have any
+          questions, our support team would be happy to help you.</p>
+        <form>
+          <input type="email" name="email" placeholder="abc@gmail.com"
+            class=" text-sm rounded-full p-3 block w-full mt-4  focus:outline-none focus:ring-2 transition-all placeholder-gray-500 focus:ring-cyan focus:border-transparent ">
+          <button type="button" class=" w-full bg-cyan block mt-3 py-2 rounded-2xl text-white font-semibold">Get Started
+            for free</button>
+        </form>
+      </div>
 
-
-
+      <figure class=" w-10/12 mx-auto -mt-20"><img src="../images/logo.svg" alt="" class=" w-44 h-auto "></figure>
+      <div class=" text-white  w-10/12 mx-auto">
+        <div class=" flex mt-8">
+          <img src="../images/icon-location.svg" alt="location" class=" h-1/2  
+          pt-1    justify-start  ">
+          <p class=" ml-4  text-sm "> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor
+            incididunt ut
+            labore et
+            dolore magna aliqua</p>
+        </div>
+        <div>
+          <div class=" mt-4">
+            <img src="../images/icon-phone.svg" alt="phone" class=" inline w-4 mr-2">
+            <span class=" ml-1 ">+1-543-123-4567</span>
+          </div>
+          <div class=" mt-4">
+            <img src="../images/icon-email.svg" alt="phone" class=" inline w-4 mr-2">
+            <span class=" ml-1 ">example@fylo.com</span>
+          </div>
+        </div>
+        <div class=" text-white">
+          <ul class=" mt-10 text-sm">
+            <li class=" mt-2"><a href="#">About us</a></li>
+            <li class=" mt-2"><a href="#">Jobs </a></li>
+            <li class=" mt-2"><a href="#"> Press</a></li>
+            <li class=" mt-2"><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class=" text-white">
+          <ul class=" mt-10 text-sm">
+            <li class=" mt-2"><a href="#">Contact Us</a></li>
+            <li class=" mt-2"><a href="#">Terms </a></li>
+            <li class=" mt-2"><a href="#"> Privacy</a></li>
+          </ul>
+        </div>
+        <div class="  mb-7">
+          <ul class=" my-18 text-sm text-center ">
+            <li class=" inline "><a href="#"><img class=" inline  "
+                  src="https://img.icons8.com/material-outlined/24/000000/facebook-new.png" /></a></li>
+            <li class="inline ml-2"><a href="#"><img class=" inline"
+                  src="https://img.icons8.com/material-outlined/24/000000/instagram-new.png" /> </a></li>
+            <li class="inline ml-2"><a href="#"> <img class=" inline"
+                  src="https://img.icons8.com/ios-glyphs/24/000000/twitter-circled--v1.png" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </main>
-
-
-
-
-
-
 
 </body>
 
