@@ -4,8 +4,8 @@
   "description": "![Design preview for the Fylo dark theme landing page challenge](./design/desktop-preview.jpg)",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "postcss ./src/styles.css -o ./public/styles.css",
-    "prod": "set NODE_ENV=production&postcss ./src/styles.css -o ./public/styles.css --verbose"
+    "build": "postcss ./src/styles.css -o ./styles.css",
+    "prod": "set NODE_ENV=production&postcss ./src/styles.css -o ./styles.css --verbose"
   },
   "keywords": [],
   "author": "",
