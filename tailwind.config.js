@@ -1,7 +1,5 @@
 module.exports = {
-  purge: [
-    '*.html'
-  ],
+  purge: ["*.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -19,7 +17,7 @@ module.exports = {
         OpenSans: ["Open Sans"],
       },
       fontSize: {
-        base: "87.5",
+        base: "16px",
         primary: "14px",
       },
       backgroundImage: {
@@ -27,22 +25,23 @@ module.exports = {
         mobile: 'url("../images/bg-curvy-mobile.svg")',
       },
       spacing: {
-        '18': '74px',
-        '100': '400px',
-        '102': '440px',
-        '103': '460px',
-        '104': '470px'
+        18: "74px",
+        100: "400px",
+        102: "440px",
+        103: "460px",
+        104: "470px",
       },
       boxShadow: {
-        customShadow: '2px 0px 40px -2px rgba(0,0,0,0.73)'
-      }
+        customShadow: "2px 0px 40px -2px rgba(0,0,0,0.73)",
+      },
     },
   },
   variants: {
     extend: {
-      colors: ['active'],
-      backgroundColor: ['active'],
-      fontWeight: ['focus'],
+      colors: ["active"],
+      backgroundColor: ["active", "hover"],
+      fontWeight: ["focus"],
+      scale: ["hover"]
     },
   },
   plugins: [],
