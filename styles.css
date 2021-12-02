@@ -536,6 +536,10 @@ video {
   border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .absolute{
   position: absolute;
 }
